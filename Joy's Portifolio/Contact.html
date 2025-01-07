@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>janviere portifolio</title>
+  <style>
+    /* Remove default body spacing */
+    body {
+    background-color:rgb(25, 29, 36); ;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #333;
+      padding: 0; /* Remove extra padding inside the navigation bar */
+      margin: 0;  /* Remove any margin around the navigation bar */
+    }
+
+    /* Unordered list inside nav */
+    nav ul {
+      list-style: none; /* Remove bullet points */
+      margin: 0;        /* Remove extra space around the list */
+      padding: 0;       /* Remove extra space inside the list */
+      display:flex;      /* Make items align horizontally */
+      justify-content: flex-end;   
+    }
+
+    /* Navigation links */
+    nav ul li {
+      margin: 0;        /* Remove extra space between list items */
+      padding: 0;       /* Optional: Remove any padding */
+    }
+
+    nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px; /* Adjust padding to control clickable area */
+    }
+
+    /* Add hover effect for links */
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+     /* Logo styling */
+     .logo {
+      display: block;
+      height: 40px;  /* Set height for the logo */
+       margin-left: 2%;      
+    }
+/* Name styling */
+.name {
+      color: white;
+      margin-left: 0px;    /* Add space between the logo and name */
+      font-size: 18px;      /* Adjust font size */
+      font-family: Arial, sans-serif;
+
+ /* Footer styles */
+ footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+
+    .social-links a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #007BFF;
+    }
+
+    .footer-info {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav>
+       <!-- Logo on the right-hand side -->
+       <a href="#" class="logo">
+        <img src="logo.jpg" alt="Logo" class="logo">
+      </a>
+      <span class="name">Janviere Munezero</span>
+      <!-- Navigation links -->
+    <ul>
+      <li><a onmouseover="this.style.backgroundColor='#45a049'; "href="home.html">Home</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="About.html">About</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="Project.html">Projects</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="contact" style="padding: 50px 20px; background-color: #f4f4f4;">
+    <h2 style="font-size: 32px; text-align: center; margin-bottom: 20px;">Contact Me</h2>
+    <p style="text-align: center; font-size: 18px; margin-bottom: 40px;">
+      I'm always open to discussing new skills, opportunities in the tech world, partnerships, and mentorship. Feel free to reach out!
+    </p>
+  
+    <div style="max-width: 800px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+      <!-- Contact Form -->
+      <form style="flex: 1 1 100%; max-width: 100%;" action="https://mail.google.com/mail/u/0/#inbox" method="post">
+        <div style="margin-bottom: 15px;">
+          <label for="name" style="display: block; font-weight: bold; margin-bottom: 5px;">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="email" style="display: block; font-weight: bold; margin-bottom: 5px;">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required>
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="message" style="display: block; font-weight: bold; margin-bottom: 5px;">Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;" required></textarea>
+        </div>
+        <button type="submit" style="background-color: #007BFF; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">
+          Send Message
+        </button>
+      </form>
+  
+      <!-- Contact Info -->
+      <div style="flex: 1 1 calc(40% - 20px); max-width: calc(40% - 20px);">
+        <h3 style="font-size: 24px; margin-bottom: 15px;">Find Me</h3>
+        <p style="font-size: 16px; line-height: 1.6; margin-bottom: 20px;">
+          You can also reach out to me via my social media channels or email for a quicker response.
+        </p>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 10px;">
+            <a href="mailto:janvieremunezero16@gmail.com" style="text-decoration: none; color: #007BFF;">
+               Email 
+            </a>
+          </li>
+          <li style="margin-bottom: 10px;">
+            <a href="https://www.linkedin.com/in/munezero-janviere-a5375b300?utm_source=share&utm_campaign=share_via&utm_content=profike&utm_medium=android_app" target="_blank" style="text-decoration: none; color: #007BFF;">
+               LinkedIn
+            </a>
+          </li>
+          <li style="margin-bottom: 10px;">
+            <a href="https://github.com/Janvieredev/Janvieredev/settings" target="_blank" style="text-decoration: none; color: #007BFF;">
+               GitHub
+            </a>
+          </li>
+          <li style="margin-bottom: 10px;">
+            <a href="https://www.instagram.com/joyjanvi5?igsh=YzljYT10Dg3Zg==" target="_blank" style="text-decoration: none; color: #007BFF;">
+               Instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <!-- Social Media Links -->
+    <div class="social-links" style="background-color: #333;color: white;text-align: center; padding: 20px 10px;display: flex; justify-content: center; gap: 15px;margin-bottom:10px;">
+      <a onmouseover="this.style.backgroundColor='#45a049';"style="color: white; font-size: 20px;text-decoration: none;" href="https://www.instagram.com/joyjanvi5?igsh=YzljYT10Dg3Zg==" target="_blank">Instagram</a>
+      <a onmouseover="this.style.backgroundColor='#45a049'; "style="color: white; font-size: 20px;text-decoration: none;" href="https://www.linkedin.com/in/munezero-janviere-a5375b300?utm_source=share&utm_campaign=share_via&utm_content=profike&utm_medium=android_app" target="_blank">LinkedIn</a>
+      <a onmouseover="this.style.backgroundColor='#45a049'; "style="color: white; font-size: 20px;text-decoration: none;" href="https://github.com/Janvieredev/Janvieredev/settings" target="_blank">GitHub</a>
+      <a  onmouseover="this.style.backgroundColor='#45a049';"style="color: white; font-size: 20px;text-decoration: none;" href="mailto:janvieremunezero16@gmail.com">Email</a>
+    </div>
+
+    <!-- Footer Information -->
+    <div class="footer-info" style="font-size: 14px; margin-top: 10px;">
+      &copy; 2025 Janvieredev. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

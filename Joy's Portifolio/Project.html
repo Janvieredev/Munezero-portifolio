@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>janviere portifolio</title>
+  <style>
+    /* Remove default body spacing */
+    body {
+    background-color:rgb(25, 29, 36); ;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation bar styles */
+    nav {
+      background-color: #333;
+      padding: 0; /* Remove extra padding inside the navigation bar */
+      margin: 0;  /* Remove any margin around the navigation bar */
+    }
+
+    /* Unordered list inside nav */
+    nav ul {
+      list-style: none; /* Remove bullet points */
+      margin: 0;        /* Remove extra space around the list */
+      padding: 0;       /* Remove extra space inside the list */
+      display:flex;      /* Make items align horizontally */
+      justify-content: flex-end;   
+    }
+
+    /* Navigation links */
+    nav ul li {
+      margin: 0;        /* Remove extra space between list items */
+      padding: 0;       /* Optional: Remove any padding */
+    }
+
+    nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px; /* Adjust padding to control clickable area */
+    }
+
+    /* Add hover effect for links */
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+     /* Logo styling */
+     .logo {
+      display: block;
+      height: 40px;  /* Set height for the logo */
+       margin-left: 2%;      
+    }
+/* Name styling */
+.name {
+      color: white;
+      margin-left: 0px;    /* Add space between the logo and name */
+      font-size: 18px;      /* Adjust font size */
+      font-family: Arial, sans-serif;
+
+ /* Footer styles */
+ footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 10px;
+    }
+
+    .social-links a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .social-links a:hover {
+      color: #007BFF;
+    }
+
+    .footer-info {
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <nav>
+       <!-- Logo on the right-hand side -->
+       <a href="#" class="logo">
+        <img src="logo.jpg" alt="Logo" class="logo">
+      </a>
+      <span class="name">Janviere Munezero</span>
+      <!-- Navigation links -->
+    <ul>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="index.html">Home</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="About.html">About</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="Project.html">Projects</a></li>
+      <li><a onmouseover="this.style.backgroundColor='#45a049';"href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="projects" style="padding: 50px 20px; background-color: #f9f9f9;">
+    <h2 style="font-size: 32px; margin-bottom: 20px; text-align: center;">My Projects</h2>
+    <p style="font-size: 18px; text-align: center; margin-bottom: 40px;">
+      This portfolio is my first project, but I’m excited to work on many innovative and impactful projects in the future. Stay tuned for updates!
+    </p>
+  
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+      <!-- First Project Card -->
+      <div style="flex: 1 1 calc(30% - 20px); max-width: calc(30% - 20px); background-color: white; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 24px; margin-bottom: 10px;">Portfolio Website</h3>
+        <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
+          My first project: a personal portfolio showcasing my skills, experience, and aspirations as a software engineer.
+        </p>
+        <a href="#" style="text-decoration: none; color: white; background-color: #007BFF; padding: 10px 15px; border-radius: 5px;">View Project</a>
+      </div>
+  
+      <!-- Placeholder Future Project Cards -->
+      <div style="flex: 1 1 calc(30% - 20px); max-width: calc(30% - 20px); background-color: white; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 24px; margin-bottom: 10px;">Future Project 1</h3>
+        <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
+          A placeholder for an upcoming project. Check back soon for updates on this exciting development!
+        </p>
+        <a href="image-427.png" style="text-decoration: none; color: white; background-color: #007BFF; padding: 10px 15px; border-radius: 5px;">Coming Soon</a>
+      </div>
+  
+      <div style="flex: 1 1 calc(30% - 20px); max-width: calc(30% - 20px); background-color: white; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <h3 style="font-size: 24px; margin-bottom: 10px;">Future Project 2</h3>
+        <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
+          Another placeholder for an exciting project. Stay tuned for more details as I bring my ideas to life!
+        </p>
+        <a href="#" style="text-decoration: none; color: white; background-color: #007BFF; padding: 10px 15px; border-radius: 5px;">Coming Soon</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <!-- Social Media Links -->
+    <div class="social-links" style="background-color: #333;color: white;text-align: center; padding: 20px 10px;display: flex; justify-content: center; gap: 15px;margin-bottom:10px;">
+      <a  onmouseover="this.style.backgroundColor='#45a049';" style="color: white; font-size: 20px;text-decoration: none;" href="https://www.instagram.com/joyjanvi5?igsh=YzljYT10Dg3Zg==" target="_blank">Instagram</a>
+      <a  onmouseover="this.style.backgroundColor='#45a049';"style="color: white; font-size: 20px;text-decoration: none;" href="https://www.linkedin.com/in/munezero-janviere-a5375b300?utm_source=share&utm_campaign=share_via&utm_content=profike&utm_medium=android_app" target="_blank">LinkedIn</a>
+      <a  onmouseover="this.style.backgroundColor='#45a049';"style="color: white; font-size: 20px;text-decoration: none;" href="https://github.com/Janvieredev/Janvieredev/settings" target="_blank">GitHub</a>
+      <a  onmouseover="this.style.backgroundColor='#45a049';"style="color: white; font-size: 20px;text-decoration: none;" href="mailto:janvieremunezero16@gmail.com">Email</a>
+    </div>
+
+    <!-- Footer Information -->
+    <div class="footer-info" style="font-size: 14px; margin-top: 10px;">
+      &copy; 2025 Janvieredev. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>

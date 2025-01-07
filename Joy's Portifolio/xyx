@@ -1,0 +1,24 @@
+<section id="about" style="padding: 50px 20px; background-color: #ffffff;">
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+    <!-- Text Content -->
+    <div style="flex: 2;">
+      <h2 style="font-size: 32px; margin-bottom: 20px;">About Me</h2>
+      <p style="font-size: 18px; line-height: 1.6; margin-bottom: 20px;">
+        I am a software engineer with experience in building innovative and efficient <br/>software solutions. 
+        I have worked on various projects, ranging from developing<br/> responsive web applications 
+        to crafting robust backend systems. My expertise lies in <br/>creating seamless user experiences and writing 
+        clean, maintainable code.
+      </p>
+      <p style="font-size: 18px; line-height: 1.6;">
+        Currently, I am focused on enhancing my skills in full-stack development,<br/> exploring cutting-edge 
+        technologies, and contributing to open-source projects.<br/> My goal is to solve real-world problems 
+        through technology and collaborate <br/>with like-minded professionals to make an impact.
+      </p>
+    </div>
+
+    <!-- Image -->
+    <div style="flex: 4; max-width: 300px;">
+      <img src="image.jpg" alt="About Me" style="width: 100%; border-radius: 10px; margin-right:200px;">
+    </div>
+  </div>
+  </section>
